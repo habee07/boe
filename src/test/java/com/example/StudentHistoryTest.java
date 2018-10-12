@@ -6,7 +6,7 @@ import org.junit.Test;
 public class StudentHistoryTest extends TestCase {
     public final StudentHistory SH_Test = new StudentHistory(2017, "3rd","SB000","Pass", "Graduate",75,144,144);
     public void testGetYear() {
-        assertEquals(SH_Test.getYear(),"2017");
+        assertEquals(SH_Test.getYear(),2017);
     }
 
     public void testGetYos() {
