@@ -5,24 +5,42 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * Created by Laila on 11/10/2018.
+ * Created by Laila on 12/10/2018.
  */
 public class NoteInfoTest {
 
-    private final NoteInfo TestNote = new NoteInfo("private","fail student","Lailaa");
-
     @Test
-    public void testGetPriv() throws Exception {
-
-        assertEquals(TestNote.getNotePriv(),"private");
+    public void testGetNotePriv() throws Exception {
 
     }
 
     @Test
-    public void testGetNote() throws Exception {
-
-        assertEquals(TestNote.getNotePub(),"fail student"); //test must fail
+    public void testSetNotePriv() throws Exception {
 
     }
 
+    @Test
+    public void testGetNotePub() throws Exception {
+
+    }
+
+    @Test
+    public void testSetNotePub() throws Exception {
+
+    }
+
+    @Test
+    public void testGetUser() throws Exception {
+
+    }
+
+    @Test
+    public void testSetUser() throws Exception {
+
+    }
+
+    @Test
+    public void testGetUserInfo() throws Exception {
+
+    }
 }
