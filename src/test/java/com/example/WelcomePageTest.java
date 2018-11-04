@@ -5,6 +5,7 @@
  */
 package com.example;
 
+import com.vaadin.navigator.ViewChangeListener;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -16,9 +17,9 @@ import static org.junit.Assert.*;
  *
  * @author Craig
  */
-public class InputPageTest {
+public class WelcomePageTest {
     
-    public InputPageTest() {
+    public WelcomePageTest() {
     }
     
     @BeforeClass
@@ -37,10 +38,16 @@ public class InputPageTest {
     public void tearDown() {
     }
 
+    /**
+     * Test of enter method, of class WelcomePage.
+     */
     @Test
-    public void testSomeMethod() {
-    boolean var = true;
-    assertEquals(var,true);
+    public void testEnter() {
+        System.out.println("enter");
+        ViewChangeListener.ViewChangeEvent event = null;
+        WelcomePage instance = new WelcomePage();
+        instance.enter(event);
+
     }
     
 }

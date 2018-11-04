@@ -16,9 +16,9 @@ import static org.junit.Assert.*;
  *
  * @author Craig
  */
-public class InputPageTest {
+public class CourseGridTest {
     
-    public InputPageTest() {
+    public CourseGridTest() {
     }
     
     @BeforeClass
@@ -39,7 +39,7 @@ public class InputPageTest {
 
     @Test
     public void testSomeMethod() {
-    boolean var = true;
+    boolean var = true; 
     assertEquals(var,true);
     }
     

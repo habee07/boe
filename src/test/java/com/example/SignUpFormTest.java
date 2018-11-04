@@ -16,9 +16,9 @@ import static org.junit.Assert.*;
  *
  * @author Craig
  */
-public class InputPageTest {
+public class SignUpFormTest {
     
-    public InputPageTest() {
+    public SignUpFormTest() {
     }
     
     @BeforeClass
