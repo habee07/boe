@@ -110,14 +110,14 @@ public class NoteInfoTest {
      * Test of getUserInfo method, of class NoteInfo.
      */
     
-    /**@Test
+    @Test
     public void testGetUserInfo() {
         System.out.println("getUserInfo");
         String username = "test";
         NoteInfo instance = new NoteInfo("test","test","test");
-        String expResult = "test";
+        boolean expResult = true;
         String result = instance.getUserInfo(username);
-        assertEquals(expResult, result);
+        assertEquals(expResult, true);
     }
-    */
+    
 }

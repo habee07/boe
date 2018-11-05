@@ -43,7 +43,7 @@ public class UsersTest {
     @Test
     public void testMakeUser() throws Exception {
         System.out.println("MakeUser");
-        Users instance = new Users();
+        Users instance = new Users("James","James Bond", "Tutor", "1st year COMS tutor");
         Boolean expResult = false;
         Boolean result = instance.MakeUser();
         assertEquals(expResult, result);
@@ -68,7 +68,7 @@ public class UsersTest {
     @Test
     public void testLogOut() {
         System.out.println("logOut");
-        Users instance = new Users();
+        Users instance = new Users("James","James Bond", "Tutor", "1st year COMS tutor");
         instance.logOut();
     }
     
