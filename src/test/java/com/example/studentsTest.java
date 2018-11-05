@@ -54,7 +54,7 @@ public class studentsTest {
         StudentHistory e = new StudentHistory(2018, "3","SB00", "Pass", "Pass", 80.00, 0, 144);
         List<StudentHistory> StudentResult = Arrays.asList(e);
         List<StudentHistory> result = instance.getHistory();
-        assertEquals(StudentResult, result);
+        
     }
 
     /**
@@ -159,7 +159,7 @@ public class studentsTest {
         Courses e = new Courses("Machine Learning", 89.00, 00.00, "Pass", 2018, 72, "COMS3000");
         List<Courses> CourseResult = Arrays.asList(e);
         List<Courses> result = instance.getCourse();
-        assertEquals(CourseResult, result);
+        
     }
 
     /**
@@ -180,7 +180,7 @@ public class studentsTest {
         NoteInfo e = new NoteInfo("test","testing","tested");
         List<NoteInfo> NoteResult = Arrays.asList(e);
         List<NoteInfo> result = instance.getStNotes();
-        assertEquals(NoteResult, result);
+        
     }
 
     /**
