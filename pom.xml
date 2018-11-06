@@ -160,16 +160,16 @@
                 <version>2.7</version>
                 <configuration>
                     <instrumentation>
-                        <excludes>
-                            <exclude>com/my/example/CGridLayout.class</exclude>
-                            <exclude>com/my/example/CourseGrid.class</exclude>
-                            <exclude>com/my/example/Dashboard.class</exclude>
-                            <exclude>com/my/example/InputPage.class</exclude>
-                            <exclude>com/my/example/MyUI.class</exclude>
-                            <exclude>com/my/example/NotesGrid.class</exclude>
-                            <exclude>com/my/example/SignUpForm.class</exclude>
-                            <exclude>com/my/example/WelcomePage.class</exclude>
-                        </excludes>
+                        <ignores>
+        		              <ignore>com.example.CGridLayout.*</ignore>
+                              <ignore>com.example.CourseGrid.*</ignore>
+                              <ignore>com.example.Dashboard.*</ignore>
+                              <ignore>com.example.InputPage.*</ignore>
+                              <ignore>com.example.MyUI.*</ignore>
+                              <ignore>com.example.NotesGrid.*</ignore>
+                              <ignore>com.example.SignUpForm.*</ignore>
+                              <ignore>com.example.WelcomePage.*</ignore>
+                        </ignores>
                     </instrumentation>
                     <format>xml</format>
                     <maxmem>256m</maxmem>
